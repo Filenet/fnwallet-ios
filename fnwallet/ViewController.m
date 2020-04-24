@@ -18,8 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     UITextView * hello = [[UITextView alloc] init];
-    [hello setFrame:CGRectMake(20, 100, 100, 30)];
-    [hello setText:@"hello, fnwallet"];
+    [hello setFrame:CGRectMake(100, 100, 200, 30)];
+    [hello setText:@"hello, fnwallet-ios"];
     [self.view addSubview:hello];
 }
 
