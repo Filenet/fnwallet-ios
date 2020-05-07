@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1819D1A124527BDC008461D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819D1A024527BDC008461D0 /* AppDelegate.m */; };
-		1819D1A424527BDC008461D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819D1A324527BDC008461D0 /* ViewController.m */; };
-		1819D1A724527BDC008461D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1819D1A524527BDC008461D0 /* Main.storyboard */; };
 		1819D1A924527BDD008461D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1819D1A824527BDD008461D0 /* Assets.xcassets */; };
 		1819D1AC24527BDD008461D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1819D1AA24527BDD008461D0 /* LaunchScreen.storyboard */; };
 		1819D1AF24527BDD008461D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819D1AE24527BDD008461D0 /* main.m */; };
@@ -23,9 +21,6 @@
 		1819D19C24527BDC008461D0 /* fnwallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fnwallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1819D19F24527BDC008461D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1819D1A024527BDC008461D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1819D1A224527BDC008461D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1819D1A324527BDC008461D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1819D1A624527BDC008461D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1819D1A824527BDD008461D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1819D1AB24527BDD008461D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1819D1AE24527BDD008461D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,10 +67,7 @@
 			children = (
 				1819D19F24527BDC008461D0 /* AppDelegate.h */,
 				1819D1A024527BDC008461D0 /* AppDelegate.m */,
-				1819D1A224527BDC008461D0 /* ViewController.h */,
-				1819D1A324527BDC008461D0 /* ViewController.m */,
 				18878C84245A9B4900AD3708 /* Info.plist */,
-				1819D1A524527BDC008461D0 /* Main.storyboard */,
 				1819D1A824527BDD008461D0 /* Assets.xcassets */,
 				1819D1AA24527BDD008461D0 /* LaunchScreen.storyboard */,
 				18878C76245A959600AD3708 /* LaunchScreen-CN.storyboard */,
@@ -167,7 +159,6 @@
 				1819D1AC24527BDD008461D0 /* LaunchScreen.storyboard in Resources */,
 				18878C79245A959600AD3708 /* LaunchScreen-EN.storyboard in Resources */,
 				1819D1A924527BDD008461D0 /* Assets.xcassets in Resources */,
-				1819D1A724527BDC008461D0 /* Main.storyboard in Resources */,
 				18878C72245A94CC00AD3708 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,7 +170,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1819D1A424527BDC008461D0 /* ViewController.m in Sources */,
 				1819D1AF24527BDD008461D0 /* main.m in Sources */,
 				1819D1A124527BDC008461D0 /* AppDelegate.m in Sources */,
 			);
@@ -188,14 +178,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1819D1A524527BDC008461D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1819D1A624527BDC008461D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1819D1AA24527BDD008461D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -352,7 +334,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.filenet.dev.fnwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -369,7 +351,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.filenet.dev.fnwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
