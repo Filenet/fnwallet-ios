@@ -7,3 +7,4 @@
 */
 
 UILaunchStoryboardName = "LaunchScreen-EN";
+CFBundleDisplayName = "FN Wallet";
